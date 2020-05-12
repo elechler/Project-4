@@ -17,7 +17,7 @@
     flex-basis: 100%;
     min-height: 25px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: $borrad;
   }
   
   .theme.col-1 {
@@ -61,7 +61,7 @@
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $color-accent;
   }
   
   .theme.col-12 {

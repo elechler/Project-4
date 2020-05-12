@@ -23,7 +23,7 @@
   
   .headline-primary {
     color: $color-primary;
-    margin-left: 10px;
+    margin-left: $marlf;
   }
   
   .headline-secondary {
@@ -32,7 +32,7 @@
   }
   
   .link {
-    color: #51ddfc;
+    color: $color-accent;
     font-weight: 700;
   }
   
@@ -43,7 +43,7 @@
     margin-left: 20px;
     padding-left: 20px;
     border-left: 8px solid $color-primary;
-    border-radius: 5px;
+    border-radius: $borrad;
   }
   
   

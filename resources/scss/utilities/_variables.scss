@@ -1,7 +1,18 @@
-//create at least 5 color variables, Create at least 1 variable for the media query breakpoint. 
-//Go through each of your scss partial files and replace the hard coded css values with your
-//variables.
 
-
+//color variables=============================
 $color-primary: #58e1c1;
 $color-secondary: #777;
+$color-accent: #51ddfc;
+$white: #fff;
+$error: #e4757a;
+
+//hover color for 5th color variable
+
+//styling variables===================================
+$borrad: 5px;
+$marlf: 10px;
+
+//breakpoint variables============================
+$break-m: 768px;
+
+

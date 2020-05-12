@@ -1,7 +1,8 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+
+@media (min-width: $break-m) {
 
     .container {
       max-width: 1400px;
@@ -28,7 +29,7 @@
     }
     
     [class^=col] + [class^=col] {
-      margin-left: 10px;
+      margin-left: $marlf;
     }
     
     .col-1 {
@@ -94,7 +95,7 @@
     }
     
     .btn + .btn {
-      margin-left: 10px;
+      margin-left: $marlf;
     }
     
     .logo {
