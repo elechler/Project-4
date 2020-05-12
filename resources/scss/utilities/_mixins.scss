@@ -1,13 +1,13 @@
 //mixins=====================
-@mixin mq {
-    @media (min-width: $break-m) { 
-    @content; 
-    }
-  }
-
   @mixin btn-hover {
     transition: background-color .3s ease-in;  
   }
   
+  @mixin mq($break) {
+      @media (min-width: $break-m) { 
+        @content
+    }
+  }
+
 
       
